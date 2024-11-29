@@ -98,3 +98,93 @@ img{
   
   
 }
+
+#info-header{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.containers{
+  border: 2px #3882f6 solid ;
+  display: flex;
+  
+
+}
+
+.box1,.box2,.box3,.box4{
+  
+  border: 2px #3882f6 solid;
+  margin: 50px;
+  padding: 30px;
+}
+
+/* The second section of the web */
+
+h2{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.row-of-blue-divs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  
+}
+
+.blue-box{
+ 
+  
+  border: 3px #3882f6 solid ;
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 5px;
+
+}
+
+.box-blue-msg{
+  max-width: 300px;
+}
+
+.second-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-second{
+  text-align: center;
+  font-size: 18px;
+}
+
+h3{
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.third-section{
+background-color: #E5E7EB;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 400px;
+}
+
+#quote-author{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 500px;
+}
